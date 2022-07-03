@@ -1,2 +1,2 @@
 # M2U2SantiagoRondon
-Entregable del Modulo 2 Unidad 2
+No he logrado terminar al 100% las 2 actividades, debido a que estuve 2 semanas fuera de mi ciudad de residencia, no cuento con un computador portatil para poder realizar los ejercicios en el lugar en el que estaba, sin embargo, hago este commit para que se vea lo que alcancé desarrollar de los ejercicos ya que he llegado a mi hogar nuevamente el día de ayer en la noche y solo hoy desde las horas de la tarde estuve destrazandome de esas 2 semanas (si estuve en las clases) pero no pude realizar ninguna actividad.
