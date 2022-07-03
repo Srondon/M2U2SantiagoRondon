@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="javascript" src="calculosMatricula.js"></script>
+  <title>Diplomado - Matrícula</title>
+</head>
+<body>
+    <form id="frmMatricula">  
+        <section class="form-register">
+            <h4>Cálculo de Matrícula</h4>
+
+            <!-- Nombre Estudiante -->
+            <input class="controls" type="text" id="nombres" placeholder="Ingrese nombre del estudiante">
+        
+            <div class="controls">
+                <label for="numero-materias">Seleccione número de asignaturas</label>
+                <select class="form-control" id="cantMaterias" oninput="cantidadMaterias();">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+            </div>                        
+
+            <!-- Modelo del Span de ingreso de materias-->
+            <span id="span-modelo" style="display: none;">
+              <div class="row">
+                <div class="col-md-3">
+                <div class="form-group">
+                <label for="parcela-0">Materia 0</label>
+                <input class="controls" type="number" id="parcela-0" name="parcela-0" placeholder="Ingrese valor de la asignatura">
+                </div>
+             </div>
+            </div>
+            </span>
+            <span id="span-real"></span>
+
+          <input class="controls" type="text" id="nombMateria" placeholder="Ingrese nombre de la asignatura">
+          <input class="controls" type="number" id="valorMateria" placeholder="Ingrese valor de la asignatura">
+
+         <p>Costos fijos: Papelería $20.000 y carné $8.000</p>
+         <p>Descuento de matrícula: 20%</p>
+
+         <!-- Botones -->
+         <button class="botons" onclick="calcularMatricula();">Calcular costo de matricula</button>
+         <br>
+         <button class="botons" onclick="LimpiarFrm();">Limpiar Formulario</button>
+         <!-- Fin Botones -->
+         <br>         
+         
+         </section>
+    </form>
+</body>
+</html>
